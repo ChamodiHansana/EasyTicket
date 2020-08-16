@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">EasyTicket</string>
+    <string name="ticket">How many tickets</string>
+    <string name="full">Number of full tickets:</string>
+    <string name="half">Number of half tickets:</string>
+    <string name="tot">Total tickets:</string>
+    <string name="summary">Ticket Summary</string>
+    <string name="name">Name:</string>
+    <string name="tp">Mobile Number:</string>
+    <string name="email">Email:</string>
+    <string name="condition" translatable="false">I agreed terms and conditions.</string>
+    <string name="coupn">Coupon Code:</string>
+    <string name="cardNo">Card Number:</string>
+    <string name="edate">Expiry Date:</string>
+    <string name="cvv2">CVV/CVC:</string>
+    <string name="payMethod">We accept</string>
+    <string name="amount">Amount:</string>
+    <string name="cardName">Card Name:</string>
+    <string name="exPrice">$10.00</string>
+    <string name="enterCoupen">Enter your coupen code..</string>
+    <string name="enterCard">Enter your card name..</string>
+    <string name="entercardno">Enter your card number..</string>
+    <string name="enterName">Enter your name..</string>
+    <string name="enterPhone">Enter phone..</string>
+    <string name="enterEmail">Enter your email..</string>
+    <string name="myPaymets">My Bookings</string>
+
+</resources>
