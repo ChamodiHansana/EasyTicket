@@ -4,7 +4,7 @@
     <string name="full">Number of full tickets:</string>
     <string name="half">Number of half tickets:</string>
     <string name="tot">Total tickets:</string>
-    <string name="summary">Ticket Summary</string>
+    <string name="summary"><u>Ticket Summary</u></string>
     <string name="name">Name:</string>
     <string name="tp">Mobile Number:</string>
     <string name="email">Email:</string>
