@@ -22,24 +22,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.899" />
 
-    <EditText
-        android:id="@+id/editTextTextMultiLine2"
-        android:layout_width="290dp"
-        android:layout_height="150dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginRight="44dp"
-        android:background="@android:color/background_light"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="textMultiLine"
-        android:text="Movie Name: Avenger End Game           Theater: CineOne                                       Full:2   Half:0                                           Date:12/09/2020                                       Time:02.30pm                                    Amount :$10"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.711"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.164" />
-
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"

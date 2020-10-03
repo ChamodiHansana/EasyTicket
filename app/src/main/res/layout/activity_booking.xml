@@ -23,10 +23,10 @@
         app:layout_constraintVertical_bias="0.93" />
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnupdate"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimaryDark"
+        android:background="?attr/colorPrimaryDark"
         android:text="UPDATE"
         android:textColor="@android:color/background_light"
         android:textSize="18sp"
@@ -113,11 +113,12 @@
         app:layout_constraintVertical_bias="0.594" />
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/simpleCheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/condition"
         android:textColor="@android:color/background_dark"
+        android:textColorLink="@color/common_google_signin_btn_text_dark_focused"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

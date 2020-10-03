@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "376861429945",
+    "firebase_url": "https://theater-management.firebaseio.com",
+    "project_id": "theater-management",
+    "storage_bucket": "theater-management.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376861429945:android:adc1b87c646db1ef34cb68",
+        "android_client_info": {
+          "package_name": "com.example.easyticket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376861429945-05n6phblitfck5uojobkdmvrrbr82qhp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRR6pcsgsqEzf6S3WRVGRwyLB4VDhdLT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376861429945-05n6phblitfck5uojobkdmvrrbr82qhp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376861429945:android:0dd5952aae43a95634cb68",
+        "android_client_info": {
+          "package_name": "com.example.theater"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376861429945-05n6phblitfck5uojobkdmvrrbr82qhp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRR6pcsgsqEzf6S3WRVGRwyLB4VDhdLT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376861429945-05n6phblitfck5uojobkdmvrrbr82qhp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376861429945:android:be21d821f7bb702234cb68",
+        "android_client_info": {
+          "package_name": "com.example.theatermanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376861429945-05n6phblitfck5uojobkdmvrrbr82qhp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRR6pcsgsqEzf6S3WRVGRwyLB4VDhdLT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376861429945-05n6phblitfck5uojobkdmvrrbr82qhp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
