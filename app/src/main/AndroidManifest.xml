@@ -9,8 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".deletepayment"></activity>
-        <activity android:name=".booking"> </activity>
+        <activity android:name=".ViewFeedback"></activity>
+        <activity android:name=".UpdateFeedback" />
+        <activity android:name=".MoreInfo2" />
+        <activity android:name=".MoreInfo1" />
+        <activity android:name=".MoreInfo" />
+        <activity android:name=".Theaters_add" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".admin_login" />
+        <activity android:name=".admin_info" />
+        <activity android:name=".deletepayment" />
+        <activity android:name=".booking" />
         <activity android:name=".ticket">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,8 +27,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" ></activity>
-        <activity android:name=".payment" ></activity>
+        <activity android:name=".payment" />
     </application>
 
 </manifest>

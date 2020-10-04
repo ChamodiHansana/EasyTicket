@@ -25,4 +25,58 @@
     <string name="enterEmail">Enter your email..</string>
     <string name="myPaymets">My Bookings</string>
 
+    //Madusha
+
+    <string name="search">Search here for Theaters</string>
+    <string name="SearchButton">Search</string>
+    <string name="TheaterName">Theaters</string>
+    <string name="CinemaNugegoga">Cinema World - Nugegoda</string>
+    <string name="AddressNugegoga">Address :  No .102, Main Road ,Nugegoda</string>
+    <string name="TelephoneNugegoda">Telephone :  0112346789</string>
+    <string name="EmailNugegoda">Email :   cinemaworldNugegoda@gmail.com</string>
+    <string name="phoneMaharagama">Telephone :   01123768965</string>
+    <string name="EmailMaharagama">Email :  cinemaworldMaharagama@gmail.com</string>
+    <string name="CinemawordRajagiriya">Address :  No98, Flower Road,Rajagiriya</string>
+    <string name="RajagiriyaPhone">Telephone :   0112896657</string>
+    <string name="ragagiriyaEmail">Email :  cinemaworldRajagiriya@gmail.com</string>
+    <string name="CinemaWorldMharagama">Address :   No34/A ,Gamini Road, Maharagama</string>
+    <string name="CinemaworldMaharagama">Cinema World - Maharagama</string>
+    <string name="cinemaWorldRaja">Cinema World - Rajagiriya</string>
+    <string name="btnMoreInfo">More Info</string>
+    <string name="MoreInforContact">Contact Details</string>
+    <string name="parkingdetail">Car parking available for customers</string>
+    <string name="park">Car Parking</string>
+    <string name="restayrantDetails">Come and enjoy our delicious food</string>
+    <string name="Restaurant">Restaurant</string>
+    <string name="SnackShop">Snack Shop</string>
+    <string name="snackShopDetails">Come and enjoy snacks abd get offers.</string>
+    <string name="Feedback">Contact about Films and Theaters</string>
+    <string name="FeedbackDescription">Please mention here your feedback about experience using our Movie Ticket Booking app</string>
+    <string name="ContactUs">If you wish to contact us via email please fill in the following form and we will get in touch with you at the earliest.</string>
+    <string name="FormAttribute1">Name</string>
+    <string name="FormAttribute2">Phone Number</string>
+    <string name="FormAttribute3">Email</string>
+    <string name="FormAttribute4">Message</string>
+    <string name="ResetButtion">Reset</string>
+    <string name="sendButton">Send</string>
+    <string name="ProvidedFeedback">  Your Provided Feedback</string>
+    <string name="changeBtn">Change</string>
+    <string name="deleteBtn">Delete</string>
+    <string name="ContactMore">For More Details - Contact Us</string>
+    <string name="btnLogin">Admin Login</string>
+    <string name="LogAsAdmin">Login As An Admin</string>
+    <string name="AdminName">User Name</string>
+    <string name="adminPass">Password</string>
+    <string name="inputAdminUN">Enter User Name</string>
+    <string name="inputAdminPW">Enter Password</string>
+    <string name="AdminProfile">Admin Profile</string>
+    <string name="btnUpdate">Update</string>
+    <string name="adminInfoUpdate">Update</string>
+    <string name="carpakingDesc">Car parking available for customers.</string>
+    <string name="ResturantDesc">Come and enjoy our delicious food.</string>
+    <string name="snackShop">Come and enjoy snacks and more offers.</string>
+    <string name="updateFeedback">Update Feedback</string>
+    <string name="CinemaWorld">Cinema World - Rajagiriya</string>
+
+
 </resources>
