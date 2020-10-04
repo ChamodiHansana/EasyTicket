@@ -6,5 +6,16 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    //thilanka
+
+    <style name="dateselect">
+        <item name="android:layout_width">59dp</item>
+        <item name="android:layout_height">71dp</item>
+    </style>
+
+    <style name="showtime">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">34dp</item>
+    </style>
 
 </resources>

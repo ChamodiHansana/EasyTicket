@@ -78,5 +78,59 @@
     <string name="updateFeedback">Update Feedback</string>
     <string name="CinemaWorld">Cinema World - Rajagiriya</string>
 
+    //Thilanka
+    <string name="app_name1">MAD project</string>
+    <string name="buy_tickets1">Buy Tickets</string>
+    <string name="action">Action</string>
+    <string name="action1">Action</string>
+    <string name="buy_tickets2">Buy Tickets</string>
+    <string name="the_rhythm">The Rhythm</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="bloodshot">BloodShot</string>
+    <string name="todo4">TODO</string>
+    <string name="todo5">TODO</string>
+    <string name="sign_in_register">SIGN IN / REGISTER</string>
+    <string name="watch_trailer">Watch Trailer</string>
+    <string name="buy_tickets3">Buy Tickets</string>
+    <string name="directors">Directors :</string>
+    <string name="action3">Action</string>
+    <string name="david_s_f_wilson">David S. F. Wilson</string>
+    <string name="genres">Genres :</string>
+    <string name="description1">After he and his wife are murdered, marine Ray Garrison is resurrected by a team of scientists. Enhanced with nanotechnology, he becomes a superhuman,
+        biotech killing machine - Bloodshot. As Ray first trains with fellow super-soldiers, he cannot recall anything from his former life.</string>
+    <string name="todo6">TODO</string>
+    <string name="bloodshot1">BloodShot</string>
+    <string name="action4">Action</string>
+    <string name="description">After he and his wife are murdered, marine Ray Garrison is resurrected by a team of scientists. Enhanced with nanotechnology, he becomes a superhuman,
+        biotech killing machine - Bloodshot. As Ray first trains with fellow super-soldiers, he cannot recall anything from his former life.</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_show_time">Select Show Time</string>
+    <string name="select_theater">Select Theater</string>
+    <string name="next_button">Next</string>
+    <string name="todo7">TODO</string>
+    <string name="aug_15">Aug 15</string>
+    <string name="aug_21">Aug 21</string>
+    <string name="aug_20">Aug 20</string>
+    <string name="aug_16">Aug 16</string>
+    <string name="aug_17">Aug 17</string>
+    <string name="aug_18">Aug 18</string>
+    <string name="aug_19">Aug 19</string>
+    <string name="aug_24">Aug 24</string>
+    <string name="aug_23">Aug 23</string>
+    <string name="aug_22">Aug 22</string>
+    <string name="_10_30_am">10.30 AM</string>
+    <string name="_10_00_pm">10.00 PM</string>
+    <string name="_7_00_pm">7.00 PM</string>
+    <string name="_1_30_pm">1.30 PM</string>
+    <string name="_4_15_pm">4.15 PM</string>
+    <string name="savoy_2_wellawatta">Savoy 2 Wellawatta</string>
+    <string name="excelworld_maradana">Excelworld Maradana</string>
+    <string name="regal_gampaha">Regal Gampaha</string>
+    <string name="cina_city_maradana">Cina City Maradana</string>
+    <string name="savoy_3d_wellawatta">Savoy 3D Wellawatta</string>
+    <string name="cinemax_3d_jaela">Cinemax 3D Jaela</string>
+    <string name="theater1">Theater</string>
 
 </resources>
