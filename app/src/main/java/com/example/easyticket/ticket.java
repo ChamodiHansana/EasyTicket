@@ -22,7 +22,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ticket extends AppCompatActivity {
+public class ticket<a, c> extends AppCompatActivity {
 
 
     EditText  editTexttotal,editTextFull,editTextHalf;
@@ -39,11 +39,13 @@ public class ticket extends AppCompatActivity {
     }
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ticket);
+
+
+
 
 
         editTextFull=findViewById(R.id.editTextFull);
@@ -78,11 +80,13 @@ public class ticket extends AppCompatActivity {
 
 
 
-        tkt = new TicketDetails();
+        //tkt = new TicketDetails();
 
         btnnext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                tkt = new TicketDetails();
                 dbRef = FirebaseDatabase.getInstance().getReference().child("TicketDetails");
                 try {
                     if (TextUtils.isEmpty(editTextFull.getText().toString()))
@@ -96,11 +100,20 @@ public class ticket extends AppCompatActivity {
                         tkt.setHalf(Integer.parseInt(editTextHalf.getText().toString().trim()));
                         tkt.setTotal(Integer.parseInt(editTexttotal.getText().toString().trim()));
 
+                        int a = Integer.parseInt(editTextFull.getText().toString());
+                        int b = Integer.parseInt(editTextHalf.getText().toString());
+                        int c ;
+
+                        c=a*500+b*250;
+
+                        tkt.setCost(c);
 
                         //dbRef.push().setValue(tkt);
+                        //String StudentRecordIDFromServer = dbRef.push().getKey();
                         dbRef.child("tkt1").setValue(tkt);
+                        //dbRef.child(StudentRecordIDFromServer).setValue(tkt);
 
-                        Toast.makeText(getApplicationContext(), "Data saved success", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "", Toast.LENGTH_SHORT).show();
                         Intent i = new Intent(new Intent(ticket.this, booking.class));
                         startActivity(i);
 

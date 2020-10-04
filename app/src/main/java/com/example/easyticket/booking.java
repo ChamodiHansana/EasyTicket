@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -22,7 +23,7 @@ public class booking extends AppCompatActivity {
 
     EditText editTextname, editTextphone, editTextemail;
     TextView textViewmv,textViewth,textViewdt,textViewtm,textViewcost,textViewfull,textViewhalf;
-    Button btnnext1;
+    Button btnnext1,btnupdate;
     DatabaseReference dbRef;
     Customer cus;
     TicketDetails tkte;
@@ -50,11 +51,19 @@ public class booking extends AppCompatActivity {
         textViewfull=findViewById(R.id.textViewfull);
         textViewhalf=findViewById(R.id.textViewhalf);
 
+        final CheckBox simpleCheckBox = (CheckBox) findViewById(R.id.simpleCheckBox);
+
+
+
         btnnext1 = findViewById(R.id.btnnext1);
+        btnupdate = findViewById(R.id.btnupdate);
 
         cus = new Customer();
 
         tkte = new TicketDetails();
+
+
+
 
 
 
@@ -78,10 +87,11 @@ public class booking extends AppCompatActivity {
                         cus.setEmail(editTextemail.getText().toString().trim());
 
 
+
                         //dbRef.push().setValue(std);
                         dbRef.child("cus1").setValue(cus);
 
-                        Toast.makeText(getApplicationContext(), "Data saved success", Toast.LENGTH_SHORT).show();
+
                         Intent i = new Intent(new Intent(booking.this, payment.class));
                         startActivity(i);
 
@@ -89,10 +99,13 @@ public class booking extends AppCompatActivity {
                         clearControls();
                     }
                 } catch (NumberFormatException e) {
-                    Toast.makeText(getApplicationContext(), "Data saved unsuccessful", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Please try again", Toast.LENGTH_SHORT).show();
                 }
             }
         });
+
+
+
 
 
 
@@ -104,6 +117,7 @@ public class booking extends AppCompatActivity {
                         if (dataSnapshot.hasChildren()) {
                             textViewfull.setText(dataSnapshot.child("full").getValue().toString());
                             textViewhalf.setText(dataSnapshot.child("half").getValue().toString());
+                            textViewcost.setText(dataSnapshot.child("cost").getValue().toString());
 
                         } else
                             Toast.makeText(getApplicationContext(), "No Sourse to display", Toast.LENGTH_SHORT).show();
@@ -115,6 +129,8 @@ public class booking extends AppCompatActivity {
                     }
 
                 });
+
+
 
 
 
@@ -132,6 +148,7 @@ public class booking extends AppCompatActivity {
                     textViewdt.setText(dataSnapshot.child("date").getValue().toString());
                     textViewtm.setText(dataSnapshot.child("time").getValue().toString());
 
+
                 } else
                     Toast.makeText(getApplicationContext(), "No Sourse to display", Toast.LENGTH_SHORT).show();
             }
@@ -148,7 +165,111 @@ public class booking extends AppCompatActivity {
 
 
 
+
+        DatabaseReference readRef3 = FirebaseDatabase.getInstance().getReference().child("Theater-Management").child("Cusp1");
+        readRef3.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+
+                if (dataSnapshot.hasChildren()) {
+                    editTextname.setText(dataSnapshot.child("name").getValue().toString());
+                    editTextphone.setText(dataSnapshot.child("phone").getValue().toString());
+                    editTextemail.setText(dataSnapshot.child("email").getValue().toString());
+                    simpleCheckBox.setOnClickListener(new View.OnClickListener() {
+
+                        @Override
+                        public void onClick(View v) {
+                            if(simpleCheckBox.isChecked())
+                            {
+                                Toast.makeText(booking.this,"", Toast.LENGTH_SHORT).show();
+                            }
+                            else
+                            {
+                                Toast.makeText(booking.this,"Please confirm details", Toast.LENGTH_SHORT).show();
+                            }
+
+                        }
+                    });
+
+                } else
+                    Toast.makeText(getApplicationContext(), "No Sourse to display", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+
+        });
+
+
+
+
+
+
+        btnupdate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                DatabaseReference updRef = FirebaseDatabase.getInstance().getReference().child("Theater-Management");
+                updRef.addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                        if (dataSnapshot.hasChild("Cusp1")) {
+                            try {
+                                cus.setName(editTextname.getText().toString().trim());
+                                cus.setPhone(editTextphone.getText().toString().trim());
+                                cus.setEmail(editTextemail.getText().toString().trim());
+
+
+
+                                dbRef = FirebaseDatabase.getInstance().getReference().child("Theater-Management").child("Cusp1");
+                                dbRef.setValue(cus);
+                                simpleCheckBox.setOnClickListener(new View.OnClickListener() {
+
+                                    @Override
+                                    public void onClick(View v) {
+                                        if(simpleCheckBox.isChecked())
+                                        {
+                                            Toast.makeText(booking.this,"", Toast.LENGTH_SHORT).show();
+                                        }
+                                        else
+                                        {
+                                            Toast.makeText(booking.this,"Please confirm details", Toast.LENGTH_SHORT).show();
+                                        }
+
+                                    }
+                                });
+
+                                Toast.makeText(getApplicationContext(), "Check emails and confirm your payment", Toast.LENGTH_SHORT).show();
+
+                            } catch (NumberFormatException e) {
+                                Toast.makeText(getApplicationContext(), "Please try again", Toast.LENGTH_SHORT).show();
+                            }
+                        } else
+                            Toast.makeText(getApplicationContext(), "No Source to update", Toast.LENGTH_SHORT).show();
+
+                    }
+
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                    }
+
+                });
+            }
+        });
+
+
+
+
+
     }
 
 
-}
+
+
+
+
+    }
+
+
