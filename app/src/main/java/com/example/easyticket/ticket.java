@@ -30,6 +30,19 @@ public class ticket<a, c> extends AppCompatActivity {
     DatabaseReference dbRef;
     TicketDetails tkt;
 
+
+
+    public static int  calculateTotalTicket(int fullticket,int halfticket){
+        return (fullticket+halfticket);
+    }
+
+    public static int  calculateTotalcost(int fullticket,int halfticket){
+        return ((fullticket*500)+(halfticket*250));
+    }
+
+
+
+
     private void clearControls() {
 
         editTexttotal.setText("");
@@ -99,6 +112,11 @@ public class ticket<a, c> extends AppCompatActivity {
                         tkt.setFull(Integer.parseInt(editTextFull.getText().toString().trim()));
                         tkt.setHalf(Integer.parseInt(editTextHalf.getText().toString().trim()));
                         tkt.setTotal(Integer.parseInt(editTexttotal.getText().toString().trim()));
+
+
+
+
+
 
                         int a = Integer.parseInt(editTextFull.getText().toString());
                         int b = Integer.parseInt(editTextHalf.getText().toString());

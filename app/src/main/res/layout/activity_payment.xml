@@ -117,7 +117,7 @@
         android:id="@+id/editTextamount"
         android:layout_width="300dp"
         android:layout_height="40dp"
-        android:background="@drawable/button"
+        android:background="@drawable/chamo"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/exPrice"
@@ -133,7 +133,7 @@
         android:id="@+id/editTextccode"
         android:layout_width="300dp"
         android:layout_height="40dp"
-        android:background="@drawable/button"
+        android:background="@drawable/chamo"
         android:ems="10"
         android:hint="@string/enterCoupen"
         android:inputType="textPersonName"
@@ -148,7 +148,7 @@
         android:id="@+id/editTextcname"
         android:layout_width="300dp"
         android:layout_height="40dp"
-        android:background="@drawable/button"
+        android:background="@drawable/chamo"
         android:ems="10"
         android:hint="@string/enterCard"
         android:inputType="textPersonName"
@@ -163,7 +163,7 @@
         android:id="@+id/editTextcnumber"
         android:layout_width="300dp"
         android:layout_height="40dp"
-        android:background="@drawable/button"
+        android:background="@drawable/chamo"
         android:ems="10"
         android:hint="@string/enterCard"
         android:inputType="textPersonName"
@@ -228,7 +228,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.804"
-        android:background="@drawable/button"/>
+        android:background="@drawable/chamo"/>
 
     <EditText
         android:id="@+id/editTextpass"
@@ -242,7 +242,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.804"
-        android:background="@drawable/button"
+        android:background="@drawable/chamo"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -20,17 +20,21 @@ public class ExampleUnitTest {
 
     }
 
-   /* @Test
-    public void addition_isCorrect() {
+    @Test
+    public void totalticket_isCorrect() {
 
-        assertEquals(4, 2 + 2);
+        int total=ticket.calculateTotalTicket(5,2);
+        assertEquals(7, 5+2);
     }
-}
-
 
     @Test
-    public void addition_isCorrect() {
+    public void totalCost_isCorrect() {
 
-    assertEquals(4, 2 + 2);
-    }*/
+        int cost=ticket.calculateTotalcost(2,1);
+        assertEquals(1250, 2*500+1*250);
+    }
+
+
+
+
 }
