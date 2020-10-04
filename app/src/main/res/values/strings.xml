@@ -24,6 +24,34 @@
     <string name="enterPhone">Enter phone..</string>
     <string name="enterEmail">Enter your email..</string>
     <string name="myPaymets">My Bookings</string>
+    <string name="app_name">Theater</string>
+    <string name="SignUpHere">Sign up Here</string>
+    <string name="PswMsg">Please enter a password 6 or more words.</string>
+    <string name="SignBtn">Sign Up</string>
+    <string name="LoginLink">Already member? Login</string>
+    <string name="UserNameUp">alishaaa*Sliva</string>
+    <string name="ProName">Alisha De Silva</string>
+    <string name="ProMail">AlishaDSilva@gmail.com</string>
+    <string name="LogAcc">Login to your account</string>
+    <string name="ForgotPsw">Forgot your password?</string>
+    <string name="MNews">Movie News</string>
+    <string name="NoAccount">Don\'t have account?</string>
+    <string name="Name">Name:</string>
+    <string name="Email">Email:</string>
+    <string name="MobileNo">Mobile Number:</string>
+    <string name="UName">User Name:</string>
+    <string name="Psw">Password:</string>
+    <string name="SignOut">Sign Out</string>
+    <string name="EditPro"> Edit Profile</string>
+    <string name="Review1">\'Black Panther\' review: A sleek Marvel of a kingly superhero</string>
+    <string name="R1Details">Black Panther\' — 3.5 stars MPAA rating: PG-13 (for prolonged sequences of action violence, and a brief rude gesture)   Running time: 2:20 Even if it had nothing else going for it, Black Panther would still be the best-looking Marvel movie yet. Supersaturated with vivid afro-futurism and as bold and riotous as a rack of dashiki print shirts, it looks like a particularly excitable Sun Ra album cover. Fortunately, the film doesn’t trade on looks alone....</string>
+    <string name="OfferT">Offers and Promotions</string>
+    <string name="OfferDec">From time to time EAP Films and Theaters offers its patrons various offers with third party tie ups. These offers are sometimes linked to a particular movie and or a Theater.  Listed below are some of the current promotions and offers that are being offered.</string>
+    <string name="R1MoreD">Even if it had nothing else going for it, Black Panther would still be the best-looking Marvel movie yet. Supersaturated with vivid afro-futurism and as bold and riotous as a rack of dashiki print shirts, it looks like a particularly excitable Sun Ra album cover. Fortunately, the film doesn’t trade on looks alone.</string>
+    <string name="R1MoreD2">  The score, by Ludwig Göransson and Kendrick Lamar, combines primal beats with the growling purr of a pack of big cats....</string>
+    <string name="login">Login</string>
+    <string name="successMsg">Sign Up Successfully</string>
+    <string name="seeProfile">See Profile</string>
 
     //Madusha
 
