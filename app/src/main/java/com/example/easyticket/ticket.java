@@ -113,6 +113,13 @@ public class ticket<a, c> extends AppCompatActivity {
                         tkt.setHalf(Integer.parseInt(editTextHalf.getText().toString().trim()));
                         tkt.setTotal(Integer.parseInt(editTexttotal.getText().toString().trim()));
 
+                        int a = Integer.parseInt(editTextFull.getText().toString());
+                        int b = Integer.parseInt(editTextHalf.getText().toString());
+                        int c ;
+
+                        c=a*10+b*5;
+
+                        tkt.setCost(c);
 
 
 
